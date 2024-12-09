@@ -9,3 +9,9 @@ MarkupSafe==3.0.2
 packaging==24.2
 Werkzeug==3.1.3
 zipp==3.21.0
+
+# 新增的依賴
+flask_sqlalchemy==3.0.5
+flask-migrate==4.0.4  # 如果需要資料庫遷移
+psycopg2-binary==2.9.6  # 如果使用 PostgreSQL
+python-dotenv==1.0.0  # 管理環境變數
