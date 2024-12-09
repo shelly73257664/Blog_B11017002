@@ -1,0 +1,8 @@
+applications:
+  - path: .
+    name: flask_blog_B11017002
+    environment_json: {}
+    memory: 128M
+    instances: 1
+    disk_quota: 1024M
+    services: []

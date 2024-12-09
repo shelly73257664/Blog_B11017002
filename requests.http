@@ -1,0 +1,12 @@
+### 創建文章
+POST http://127.0.0.1:5000/api/articles
+Content-Type: application/json
+
+{
+    "title": "新文章",
+    "author": "作者名稱",
+    "content": "這是文章內容。"
+}
+
+### 獲取所有文章
+GET http://127.0.0.1:5000/api/articles
